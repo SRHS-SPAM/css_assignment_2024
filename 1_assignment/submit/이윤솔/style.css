@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+
+  background: gray;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: white;
+  width: 650px;
+  height: 96vh;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+
+  gap: 100px;
+}
+
+.circle {
+  background: #ff78ff;
+  width: 140px;
+  height: 140px;
+
+  border-radius: 100%;
+}
+
+.box {
+  background: #ff78ff;
+  width: 140px;
+  height: 140px;
+}
