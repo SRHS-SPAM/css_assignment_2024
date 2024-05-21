@@ -5,33 +5,39 @@
 body {
   margin: 0;
   height: 100vh;
-  background-color: gray;
+
+  background: gray;
+
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .container {
-  background-color: white;
-  width: 500px;
-  height: 97%;
+  background: white;
+  width: 650px;
+  height: 96vh;
+
   display: flex;
   flex-direction: column;
+
   justify-content: center;
   align-items: center;
+  justify-content: space-around;
 
-  gap: 60px;
+  gap: 100px;
 }
 
 .circle {
-  width: 100px;
-  height: 100px;
-  background-color: #8a2be2;
+  background: #ff78ff;
+  width: 140px;
+  height: 140px;
 
-  border-radius: 100px;
+  border-radius: 100%;
 }
 
 .box {
-  width: 100px;
-  height: 100px;
-  background-color: #8a2be2;
+  background: #ff78ff;
+  width: 140px;
+  height: 140px;
 }
