@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    height: 100vh;
+    background: gray;
+
+    display: flex;
+    justify-content: center;
+}
+
+.containor{
+    background: white;
+    width: 500px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    gap: 70px;
+}
+
+.circle{
+    width: 100px;
+    height: 100px;
+    background: purple;
+    border-radius: 100%;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background: purple;
+}
