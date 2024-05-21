@@ -30,14 +30,14 @@ body {
 
 .circle {
   background: #ff78ff;
-  width: 200px;
-  height: 200px;
+  width: 140px;
+  height: 140px;
 
   border-radius: 100%;
 }
 
 .box {
   background: #ff78ff;
-  width: 200px;
-  height: 200px;
+  width: 140px;
+  height: 140px;
 }
