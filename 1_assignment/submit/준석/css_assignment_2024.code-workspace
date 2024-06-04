@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": "../../.."
+	},
+	{
+		"path": "../../../../../GitHub/SPAM-Web-Basic"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "css_assignment_2024"
+  }
+}
