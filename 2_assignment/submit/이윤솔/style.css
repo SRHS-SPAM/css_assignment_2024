@@ -41,7 +41,7 @@ body {
 
   border-color: #6f25b5;
   border-style: solid;
-  border-width: 3px;
+  border-width: 4px;
   border-radius: 8%;
 
   z-index: 1;
@@ -62,7 +62,7 @@ body {
 
   border-color: #6f25b5;
   border-style: solid;
-  border-width: 3px;
+  border-width: 4px;
   border-radius: 8%;
 }
 .redbox {
@@ -99,7 +99,7 @@ body {
 
   border-color: #6f25b5;
   border-style: solid;
-  border-width: 3px;
+  border-width: 4px;
   border-radius: 8%;
 }
 
@@ -117,7 +117,7 @@ body {
 
   border-color: #6f25b5;
   border-style: solid;
-  border-width: 3px;
+  border-width: 4px;
   border-radius: 3%;
 }
 
@@ -135,6 +135,6 @@ body {
 
   border-color: #6f25b5;
   border-style: solid;
-  border-width: 3px;
+  border-width: 4px;
   border-radius: 3%;
 }
