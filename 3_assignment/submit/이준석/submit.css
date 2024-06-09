@@ -1,0 +1,95 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin-top: 400px;
+    
+}
+
+.square {
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    border-radius: 3px;
+
+}
+
+.square2 {
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    border-radius: 3px;
+}
+
+.square1{
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    position: relative;
+    right: 30px;
+    bottom: 135px;
+    z-index: -1;
+    border-radius: 3px;
+}
+
+.square2{
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    position: relative;
+    left: 30px;
+    bottom: 235px;
+    z-index: -2;
+    border-radius: 3px;
+}
+
+.square3{
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    position: relative;
+    right: 30px;
+    bottom: 275px;
+    z-index: -5;
+    border-radius: 3px;
+}
+
+.square4{
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    position: relative;
+    left: 30px;
+    bottom: 375px;
+    z-index: -4;
+    border-radius: 3px;
+}
+
+.square5{
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    border-radius: 3px;
+}
+
+
+.purple { background-color: purple; }
+.red { background-color: red; }
+.orange { background-color: orange; }
+.green { background-color: green; }
+.lightgreen { background-color: lightgreen; }
+.yellow { background-color: yellow; }
+.blue { background-color: blue; }
+
+
