@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  height: 90vh;
+
+  background: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.back {
+  margin: 80px 10px 10px 10px;
+  width: 1500px;
+  height: 700px;
+
+  background: white;
+
+  border: 2px solid gray;
+  border-radius: 0.7%;
+}
+
+.rightbox1 {
+  margin: 30px 0px -70px 40px;
+  width: 20vh;
+  height: 5vh;
+
+  background: #8a2be2;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: flex-start;
+  float: left;
+
+  border-color: #6f25b5;
+  border-style: solid;
+  border-width: 4px;
+  border-radius: 8%;
+}
+
+.rightbox2 {
+  margin: 30px 0px 0px 40px;
+  width: 20vh;
+  height: 5vh;
+
+  background: #8a2be2;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: flex-start;
+  float: left;
+
+  border-color: #6f25b5;
+  border-style: solid;
+  border-width: 4px;
+  border-radius: 8%;
+}
+.redbox {
+  margin: 63px 0px 0px 40px;
+  width: 20vh;
+  height: 4vh;
+
+  background: red;
+
+  display: flex;
+
+  justify-content: flex-end;
+  align-items: flex-start;
+  float: left;
+
+  border-color: #971e1e;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 8%;
+}
+
+.leftbox {
+  margin: 30px 40px 0px 0px;
+  width: 20vh;
+  height: 5vh;
+
+  background: #8a2be2;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: flex-end;
+  float: right;
+
+  border-color: #6f25b5;
+  border-style: solid;
+  border-width: 4px;
+  border-radius: 8%;
+}
+
+.bigbox {
+  margin: 260px 0px 0px 40px;
+  width: 46vh;
+  height: 28vh;
+
+  background: #8a2be2;
+
+  display: flex;
+
+  justify-content: center;
+  align-items: flex-start;
+
+  border-color: #6f25b5;
+  border-style: solid;
+  border-width: 4px;
+  border-radius: 3%;
+}
+
+.downbox {
+  margin: 150px 0px 0px 40px;
+  width: 71vh;
+  height: 6vh;
+
+  background: #8a2be2;
+
+  display: flex;
+
+  justify-content: flex-end;
+  align-items: flex-end;
+
+  border-color: #6f25b5;
+  border-style: solid;
+  border-width: 4px;
+  border-radius: 3%;
+}

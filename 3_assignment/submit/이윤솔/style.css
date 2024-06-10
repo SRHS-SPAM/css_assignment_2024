@@ -1,0 +1,162 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  width: 205vh;
+
+  background: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box1 {
+  margin: 0px 50px 0px 0px;
+  width: 12vh;
+  height: 12vh;
+
+  background: darkorchid;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: flex-end;
+  border-radius: 5px;
+}
+
+.box2 {
+  margin: 0px 50px 0px 0px;
+  width: 12vh;
+  height: 12vh;
+
+  background: orangered;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: flex-end;
+  border-radius: 5px;
+}
+
+.box3 {
+  margin: 0px 60px 0px 00px;
+  width: 12vh;
+  height: 12vh;
+
+  background: orange;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: flex-end;
+  border-radius: 5px;
+}
+
+.box4 {
+  margin: 0px 0px 0px 60px;
+  width: 12vh;
+  height: 12vh;
+
+  background: yellow;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: flex-end;
+  border-radius: 5px;
+}
+
+.box5 {
+  margin: 0px 0px 0px 50px;
+  width: 12vh;
+  height: 12vh;
+
+  background: green;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: flex-end;
+  border-radius: 5px;
+}
+
+.box6 {
+  margin: 0px 0px 0px 50px;
+  width: 12vh;
+  height: 12vh;
+
+  background: lightgreen;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: flex-end;
+  border-radius: 5px;
+}
+
+.box0 {
+  margin: 10px;
+  width: 12vh;
+  height: 12vh;
+
+  background: darkorchid;
+
+  display: flex;
+  border-radius: 5px;
+}
+
+.line1 {
+  margin: -20px -22px -5px -22px;
+  width: 50vh;
+  height: 18vh;
+
+  background: lightgreen;
+
+  display: flex;
+  border-radius: 5px;
+
+  z-index: -1;
+}
+
+.line2 {
+  margin: 81px 0px 0px 52px;
+  width: 11vh;
+  height: 7vh;
+
+  background: skyblue;
+
+  display: flex;
+  border-radius: 5px;
+
+  z-index: -1;
+}
+
+.line3 {
+  margin: -80px 0px 0px 23px;
+  width: 8vh;
+  height: 11vh;
+
+  background: orangered;
+
+  display: flex;
+  border-radius: 5px;
+
+  z-index: -1;
+}
+
+.line4 {
+  margin: 0px 0px 0px -75px;
+  width: 11vh;
+  height: 11vh;
+
+  background: orange;
+
+  display: flex;
+  border-radius: 5px;
+
+  z-index: -1;
+}
