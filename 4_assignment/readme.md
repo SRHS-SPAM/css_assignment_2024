@@ -20,7 +20,7 @@ grid 사용
 # hint
 
 1.Grid Garden<br/>
-수업 시간에 진행했던 Grid 속성을 익히기 위한 미니게임<br/>
+강의 시간에 진행했던 Grid 속성을 익히기 위한 미니게임<br/>
 https://cssgridgarden.com/#ko
 <br/><br/> 2.참고할만한 강의 영상<br/>
 이건 Grid를 전체적으로 다루므로 좀 더 궁금하다면 보는 것도 좋음<br/>
