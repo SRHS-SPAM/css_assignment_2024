@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: grey;
+
+    display: flex;
+}
+
+.container1 {
+    height: 100vh;
+    width: 35%;
+    background-color: aliceblue;
+    
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 50px;
+}
+
+.container2 {
+    height: 100vh;
+    width: 35%;
+    background-color: aliceblue;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container3 {
+    height: 100vh;
+    width: 35%;
+    background-color: aliceblue;
+
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+/* ===================================*/
+
+.con_box {
+    margin: 0;
+    height: 170px;
+    width: 170px;
+
+    position: relative;
+}
+
+.con_box_1 {
+    height: 100px;
+    width: 100px;
+    background-color: gold;
+    
+    position: relative;
+    bottom: -5px;
+    z-index: 4;
+}
+
+.con_box_2 {
+    height: 100px;
+    width: 100px;
+    background-color: orangered;
+
+    position: relative;
+    left: 70px;
+    bottom: 95px;
+    z-index: 3;
+}
+
+.con_box_3 {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+
+    position: relative;
+    bottom: 125px;
+    left: 70px;
+    z-index: 2;
+}
+
+.con_box_4 {
+    height: 100px;
+    width: 100px;
+    background-color: lightgreen;
+
+    position: relative;
+    bottom: 225px;
+    z-index: 0;
+}
+
+.con_box_5 {
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+
+    position: relative;
+    left: 35px;
+    bottom: 357px;
+    z-index: 5;
+}
+
+/* ===================================*/
+
+.box1 {
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+}
+
+.box2 {
+    height: 100px;
+    width: 100px;
+    background-color: orangered;
+}
+
+.box3 {
+    height: 100px;
+    width: 100px;
+    background-color: orange;
+}
+
+.box4 {
+    height: 100px;
+    width: 100px;
+    background-color: gold;
+}
+
+.box5 {
+    height: 100px;
+    width: 100px;
+    background-color: green;
+}
+
+.box6 {
+    height: 100px;
+    width: 100px;
+    background-color: lightgreen;
+}
