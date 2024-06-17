@@ -1,0 +1,157 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  width: 208.2vh;
+  height: 100vh;
+
+  background: white;
+
+  display: grid;
+  grid-template-columns: 2fr 300px 300px 2fr;
+  grid-template-rows: 2fr 200px 200px 2fr;
+}
+
+.bigbox:nth-child(1) {
+  margin: 0;
+  width: 300px;
+  height: 200px;
+
+  background: hsl(34, 100%, 94%);
+
+  display: grid;
+  grid-column: 2;
+  grid-row: 2;
+
+  text-align: center;
+  line-height: 200px;
+  color: orangered;
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 200;
+}
+
+.bigbox:nth-child(2) {
+  margin: 0;
+  width: 300px;
+  height: 200px;
+
+  background: green;
+
+  display: grid;
+  grid-column: 3;
+  grid-row: 2;
+
+  grid-template-columns: 150px 150px;
+  grid-template-rows: 200px 100px 100px;
+}
+
+.write {
+  display: grid;
+  grid-column: 3;
+  grid-row: 2;
+
+  text-align: center;
+  line-height: 200px;
+  color: white;
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 200;
+}
+
+.bigbox:nth-child(3) {
+  margin: 0;
+  width: 300px;
+  height: 200px;
+
+  background: orangered;
+
+  display: grid;
+  grid-column: 2;
+  grid-row: 3;
+
+  text-align: center;
+  line-height: 200px;
+  color: white;
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 200;
+}
+
+.smallbox:nth-child(1) {
+  margin: 0;
+  width: 150px;
+  height: 100px;
+
+  background: pink;
+
+  display: grid;
+  grid-column: 1;
+  grid-row: 2;
+
+  text-align: center;
+  line-height: 100px;
+  color: orangered;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 200;
+}
+
+.smallbox:nth-child(2) {
+  margin: 0;
+  width: 150px;
+  height: 100px;
+
+  background: hwb(262 42% 1%);
+
+  display: grid;
+  grid-column: 2;
+  grid-row: 2;
+
+  text-align: center;
+  line-height: 100px;
+  color: white;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 200;
+}
+
+.smallbox:nth-child(3) {
+  margin: 0;
+  width: 150px;
+  height: 100px;
+
+  background: orange;
+
+  display: grid;
+  grid-column: 1;
+  grid-row: 3;
+
+  text-align: center;
+  line-height: 100px;
+  color: orangered;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 200;
+}
+
+.smallbox:nth-child(4) {
+  margin: 0;
+  width: 150px;
+  height: 100px;
+
+  background: #ea6361;
+
+  display: grid;
+  grid-column: 2;
+  grid-row: 3;
+
+  text-align: center;
+  line-height: 100px;
+  color: white;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 200;
+}
