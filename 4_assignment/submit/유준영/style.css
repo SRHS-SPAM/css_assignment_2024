@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 300px;
+  position: relative;
+  bottom: 100px;
+}
+
+.box1 {
+  height: 170px;
+  width: 320px;
+  background-color: rgb(247, 244, 216);
+  font-size: 50px;
+  text-align: center;
+  line-height: 150px;
+  color: orangered;
+}
+
+.box2 {
+  height: 170px;
+  width: 320px;
+  background-color: darkgreen;
+  font-size: 50px;
+  text-align: center;
+  line-height: 150px;
+  color: aliceblue;
+}
+
+.box3 {
+  height: 170px;
+  width: 320px;
+  background-color: orangered;
+  font-size: 50px;
+  text-align: center;
+  line-height: 150px;
+  color: aliceblue;
+}
+
+.many_box {
+  height: 170px;
+  width: 320px;
+  margin: 0;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.box4 {
+  display: grid;
+  background-color: pink;
+  height: 85px;
+  width: 160px;
+  position: relative;
+  font-size: 30px;
+  text-align: center;
+  line-height: 80px;
+  color: rgb(247, 92, 14);
+}
+
+.box5 {
+  display: grid;
+  background-color: rgb(189, 24, 198);
+  height: 85px;
+  width: 160px;
+  position: relative;
+  left: 160px;
+  top: -85px;
+  font-size: 30px;
+  text-align: center;
+  line-height: 80px;
+  color: rgb(255, 255, 255);
+}
+
+.box6 {
+  display: grid;
+  background-color: rgb(227, 140, 18);
+  height: 85px;
+  width: 160px;
+  position: relative;
+  top: -85px;
+  font-size: 30px;
+  text-align: center;
+  line-height: 80px;
+  color: rgb(247, 92, 14);
+}
+
+.box7 {
+  display: grid;
+  background-color: rgb(222, 83, 106);
+  height: 85px;
+  width: 160px;
+  position: relative;
+  top: -170px;
+  right: -160px;
+  font-size: 30px;
+  text-align: center;
+  line-height: 80px;
+  color: rgb(255, 255, 255);
+}
