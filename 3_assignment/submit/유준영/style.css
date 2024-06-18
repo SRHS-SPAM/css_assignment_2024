@@ -8,9 +8,6 @@ body {
   width: 100vw;
   display: flex;
   padding: 30px;
-  & > div:nth-child(1) > div {
-    border-radius: 5px;
-  }
 }
 
 .container {
@@ -26,12 +23,14 @@ body {
   background-color: #8a2be2;
   height: 100px;
   width: 110px;
+  border-radius: 5px;
 }
 
 .box_2 {
   background-color: #c80202;
   height: 100px;
   width: 110px;
+  border-radius: 5px;
 }
 
 .box_3 {
@@ -39,28 +38,47 @@ body {
   height: 100px;
   width: 110px;
   display: flex;
+  border-radius: 5px;
 }
 
 .box_4 {
   background-color: #8a2be2;
   height: 100px;
   width: 110px;
+  border-radius: 5px;
+}
+
+.box_4 :nth-child(1) {
+  background-color: #ffe600;
+}
+
+.box_4 :nth-child(2) {
+  background-color: #db0202;
+}
+
+.box_4 :nth-child(3) {
+  background-color: #06eda0;
+}
+
+.box_4 :nth-child(4) {
+  background-color: #4202e4;
 }
 
 .yellow {
   height: 100px;
   width: 110px;
-  background-color: #ffe600;
   position: relative;
   z-index: -1;
   top: -30px;
   left: -20px;
+  border-radius: 3px;
 }
 
 .mint {
   height: 75px;
   width: 70px;
-  background-color: #83fbad;
+  border-radius: 3px;
+
   position: relative;
   z-index: -1;
   top: -130px;
@@ -70,7 +88,8 @@ body {
 .blue {
   height: 75px;
   width: 110px;
-  background-color: #000dff;
+  border-radius: 3px;
+
   position: relative;
   z-index: -1;
   top: -205px;
@@ -80,7 +99,8 @@ body {
 .red {
   height: 100px;
   width: 60px;
-  background-color: #c80202;
+  border-radius: 3px;
+
   position: relative;
   z-index: -1;
   top: -130px;
@@ -91,16 +111,19 @@ body {
   background-color: #ffe600;
   height: 100px;
   width: 110px;
+  border-radius: 5px;
 }
 
 .box_6 {
   background-color: #00a434;
   height: 100px;
   width: 110px;
+  border-radius: 5px;
 }
 
 .box_7 {
   background-color: #83fbad;
   height: 100px;
   width: 110px;
+  border-radius: 5px;
 }
