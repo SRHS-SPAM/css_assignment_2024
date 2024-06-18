@@ -42,7 +42,7 @@ body {
 
 /* ===================================*/
 
-.con_box {
+.con_box_1 {
     margin: 0;
     height: 170px;
     width: 170px;
@@ -50,7 +50,7 @@ body {
     position: relative;
 }
 
-.con_box_1 {
+.con_box:nth-child(1) {
     height: 100px;
     width: 100px;
     background-color: gold;
@@ -60,7 +60,7 @@ body {
     z-index: 4;
 }
 
-.con_box_2 {
+.con_box:nth-child(2) {
     height: 100px;
     width: 100px;
     background-color: orangered;
@@ -71,7 +71,7 @@ body {
     z-index: 3;
 }
 
-.con_box_3 {
+.con_box:nth-child(3) {
     height: 100px;
     width: 100px;
     background-color: blue;
@@ -82,7 +82,7 @@ body {
     z-index: 2;
 }
 
-.con_box_4 {
+.con_box:nth-child(4) {
     height: 100px;
     width: 100px;
     background-color: lightgreen;
@@ -92,7 +92,7 @@ body {
     z-index: 0;
 }
 
-.con_box_5 {
+.con_box:nth-child(5) {
     height: 100px;
     width: 100px;
     background-color: blueviolet;
