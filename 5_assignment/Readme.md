@@ -22,14 +22,14 @@ css 파일
 
 1.아이콘 사용법
 
-<body>
-  ...
-  <!-- 아래 코드 추가 -->
-  <script src="https://unpkg.com/lucide@latest"></script>
-  <script>
-    lucide.createIcons();
-  </script>
-</body>
+아래 코드 body 닫는 태그 바로 위에 추가
+
+```js
+<script src="https://unpkg.com/lucide@latest"></script>
+<script>
+  lucide.createIcons();
+</script>
+```
 
 [해당 링크](https://lucide.dev/icons/) 사이트에서 원하는 아이콘 클릭
 
