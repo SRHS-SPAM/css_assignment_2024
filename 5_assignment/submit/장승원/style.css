@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-<<<<<<< HEAD
 /*------------------------------------------------------*/
 
 .hight{
@@ -56,17 +55,6 @@
     align-items: center;
     flex-direction: column;
     /*margin-top: 200px;*/
-=======
-
-.container{
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-
->>>>>>> e98ef276f8371c581c895822be6fe8ce05d2bf41
 }
 
 .inputwrep{
@@ -91,7 +79,6 @@
 .iconwrep{
     display: flex;
     gap: 10px;
-<<<<<<< HEAD
 }
 
 
@@ -265,6 +252,3 @@
 
 
 
-=======
-}
->>>>>>> e98ef276f8371c581c895822be6fe8ce05d2bf41
