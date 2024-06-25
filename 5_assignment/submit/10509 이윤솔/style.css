@@ -5,11 +5,12 @@
 
 .highbody {
   width: 100%;
-  height: 100vh;
+  height: 81vh;
 
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .lowbody {
@@ -19,11 +20,13 @@
   gap: 5px;
 
   display: flex;
+  justify-content: center;
   align-items: center;
 
   border: 1px solid #ccc;
   padding: 0 20px;
   border-radius: 22.5px;
+  margin-top: 50px;
 }
 
 .lowbody input {
@@ -32,4 +35,164 @@
 
   border: 0;
   outline: 0;
+}
+
+.google {
+  margin: 0;
+  width: 300px;
+  height: 90px;
+
+  display: flex;
+}
+
+.bottonbox {
+  margin: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.botton1 {
+  margin-top: 20px;
+  font-size: 10px;
+  height: 30px;
+  width: 80px;
+
+  background-color: hsl(0, 0%, 95%);
+
+  border: none;
+  border-radius: 8px;
+}
+
+.botton2 {
+  margin-top: -30px;
+  font-size: 10px;
+  height: 30px;
+  width: 130px;
+
+  background-color: hsl(0, 0%, 95%);
+
+  border: none;
+  border-radius: 8px;
+}
+
+.text1 {
+  margin-top: 10px;
+  font-size: 10px;
+}
+
+.text2 {
+  margin-top: 10px;
+  font-size: 10px;
+
+  color: blue;
+}
+
+.highclass {
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 99.3%;
+
+  display: grid;
+  grid-template-columns: 7% 5% 69% 4% 5% 3% 5%;
+  grid-template-rows: 50px;
+}
+
+.one {
+  grid-row: 1;
+  grid-column: 1;
+}
+
+.two {
+  grid-row: 1;
+  grid-column: 2;
+}
+
+.three {
+  grid-row: 1;
+  grid-column: 4;
+}
+
+.four {
+  grid-row: 1;
+  grid-column: 5;
+}
+
+.five {
+  grid-row: 1;
+  grid-column: 6;
+}
+
+.six {
+  grid-row: 1;
+  grid-column: 7;
+
+  font-size: 10px;
+
+  width: 80px;
+  height: 30px;
+
+  background-color: #4949ff;
+  color: white;
+
+  border: none;
+  border-radius: 8px;
+}
+
+.lowclass1 {
+  width: 100%;
+  height: 40px;
+
+  background-color: #ebebeb;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.korea {
+  margin-left: 10px;
+}
+
+.lowclass2 {
+  width: 100%;
+  height: 40px;
+  border: none;
+  border-top: 1px solid hsl(0, 0%, 86%);
+
+  background-color: #ebebeb;
+
+  display: grid;
+  grid-template-columns: 5% 7% 7% 60% 10% 5% 5%;
+}
+
+.ad {
+  margin-left: 10px;
+  grid-row: 1;
+  grid-column: 1;
+}
+
+.business {
+  margin-left: 10px;
+  grid-row: 1;
+  grid-column: 2;
+}
+.search {
+  margin-left: 10px;
+  grid-row: 1;
+  grid-column: 3;
+}
+.information {
+  grid-row: 1;
+  grid-column: 5;
+}
+.terms {
+  grid-row: 1;
+  grid-column: 6;
+}
+.setting {
+  grid-row: 1;
+  grid-column: 7;
 }

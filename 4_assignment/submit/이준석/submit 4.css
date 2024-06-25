@@ -18,7 +18,7 @@ body {
     grid-auto-rows: 100px;
     width: 600px;
     height: 400px;
-    grid-template-areas:'a a b b'
+    ca a b b'
                         'a a b b'
                         'c c d e'
                         'c c f g';
