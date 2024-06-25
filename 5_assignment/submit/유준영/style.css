@@ -119,6 +119,11 @@
   position: relative;
   gap: 1000px;
   top: -300px;
+  width: 100%;
+  height: 300px;
+  background-color: #f2f2f2;
+  border-top: 1px solid #ccc;
+  margin: 0;
 }
 
 .leftbottom {
@@ -138,4 +143,9 @@
 .korea {
   position: relative;
   top: -350px;
+  background-color: #f2f2f2;
+  border-top: 1px solid #ccc;
+  width: 100%;
+  height: 50px;
+  margin: 0;
 }
